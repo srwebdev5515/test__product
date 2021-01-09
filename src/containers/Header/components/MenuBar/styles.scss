@@ -1,0 +1,22 @@
+@import '../../../../styles';
+
+#menubar {
+  background-color: $color-menubar--bg;
+}
+
+.menubar {
+  &__links {
+    @include flex-layout();
+    @include flex-layout-align(flex-end, center);
+    height: $height--menubar;
+
+    > * {
+      margin-left: 24px;
+    }
+  }
+
+  &__link {
+    @include font-style($color-light--400, 'Roboto', 15px);
+    cursor: pointer;
+  }
+}

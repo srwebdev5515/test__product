@@ -1,0 +1,22 @@
+@import '../../../../styles';
+
+#topbar {
+  height: $height--topbar;
+  background-color: $color-topbar--bg;
+  @include flex-layout();
+  @include flex-layout-align(flex-end, center);
+}
+
+.topbar {
+  &__links {
+    @include flex-layout();
+    @include flex-layout-align(flex-end, center);
+    height: 100%;
+  }
+
+  &__link {
+    @include font-style($color-light--400, 'Roboto', 12px);
+    margin-right: 24px;
+    cursor: pointer;
+  }
+}

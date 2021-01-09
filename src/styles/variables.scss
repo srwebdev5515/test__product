@@ -1,0 +1,26 @@
+$color-white: #fff;
+$color-light--400: #E0E0E0;
+$color-black: #000;
+
+
+
+$color-blue--700: #495B71;
+$color-blue--800: #20374F;
+
+
+$color--primary: $color-black;
+
+$color-topbar--bg: $color-blue--700;
+$color-menubar--bg: $color-blue--800;
+$color-footer--bg: $color-blue--800;
+
+
+
+$font--primary: 'Roboto';
+
+
+
+$height--topbar: 40px;
+$height--menubar: 80px;
+$height--header: $height--topbar + $height--menubar;
+$height--footer: 396px;

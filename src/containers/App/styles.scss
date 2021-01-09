@@ -1,0 +1,13 @@
+@import '../../styles';
+
+html, body {
+  min-height: 100vh;
+  font-family: $font--primary, sans-serif;
+  color: $color--primary;
+}
+
+.image-wrapper {
+  @include flex-layout();
+  align-items: center;
+  height: 100%;
+}
